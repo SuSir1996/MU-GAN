@@ -1,9 +1,9 @@
 # MU-GAN: Facial Attribute Editing based on Multi-attention Mechanism
-
-# Official implementation of MU-GAN
+Official implementation of MU-GAN
 
 # Requirements
 *Python 3
+
 *PyTorch 0.4.0
 
 # Useage
