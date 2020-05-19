@@ -2,16 +2,18 @@
 
 # Official implementation of MU-GAN
 
-# Requirements：
+# Requirements
 *Python 3
 *PyTorch 0.4.0
 
 # Useage
-```Train
+Train:
+```
 sudo CUDA_VISIBLE_DEVICES=x python3 train.py --img_size 128 --experiment_name 128_shortcut1_inject1_none --gpu --num_workers x --batch_size x
 ```
 
-```Test
+Test:
+```
 sudo CUDA_VISIBLE_DEVICES=x python3 test_x_x.py --experiment_name 128_shortcut1_inject1_none --test_int 1.0 --gpu --load_epoch x
 ```
 
